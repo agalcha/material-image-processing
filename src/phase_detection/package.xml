@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>phase_detection</name>
+  <version>0.0.1</version>
+  <description>Phase segmentation using U-Net in ROS</description>
+
+  <maintainer email="harshitagalcha66@gmail.com">harshitaagalcha</maintainer>
+  <license>MIT</license>
+
+  <!-- REQUIRED -->
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <!-- Build dependencies -->
+  <build_depend>rospy</build_depend>
+  <build_depend>sensor_msgs</build_depend>
+  <build_depend>std_msgs</build_depend>
+  <build_depend>cv_bridge</build_depend>
+
+  <!-- Exec runtime -->
+  <exec_depend>rospy</exec_depend>
+  <exec_depend>sensor_msgs</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+  <exec_depend>cv_bridge</exec_depend>
+
+  <!-- REQUIRED so catkin runs setup.py -->
+  <export>
+    <build_type>catkin</build_type>
+  </export>
+</package>

@@ -1,0 +1,15 @@
+# catkin build
+build/
+devel/
+install/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Models
+src/phase_detection/models/*.pth
+
+# Ignore VSCode settings
+.vscode/
+
